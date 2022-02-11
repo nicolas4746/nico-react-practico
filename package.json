@@ -2,12 +2,9 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react eshop",
-  "homepage": "https://github.com/nicolas4746/nico-react-practico",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
